@@ -59,12 +59,13 @@ npm start
 
 
 ## Acknowledgments 🙏
-<div display="flex">
-  <a href="https://www.youtube.com/@EmbarkX">
-    <img src="https://img.shields.io/badge/Tutorial-EmbarkX%20Programming-red?style=for-the-badge" alt="EmbarkX Tutorial"/>
-  </a>
-  <img src="https://img.shields.io/badge/Made%20with-❤️-red?style=for-the-badge" alt="Made with love"/>
-</div>
+-Google Gemini API for AI capabilities
+-Spring Boot framework
+-React.js community
+-EmbarkX | Learn Programming on YouTube for the excellent tutorial
+
+
 
 ---
-Created by annsanity x
+<div><img src="https://img.shields.io/badge/Made%20with-❤️-red?style=for-the-badge" alt="Made with love by annsanity"/></div>
+  
