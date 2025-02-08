@@ -1,102 +1,70 @@
-Email Assistant with Spring Boot and Google Gemini AI 🚀
+# MailGenius - Intelligent Email Assistant 🚀
 
-A real-time email processing system built with Spring Boot and Google's Gemini API that helps manage and process emails intelligently.
-🌟 Features
+A real-time email processing system built with Spring Boot and Google's Gemini API.
 
-Real-time email processing with Spring Boot
-AI-powered email analysis using Google Gemini
-Asynchronous processing with Spring's @Async and CompletableFuture
-Secure email handling with Java Mail Sender
-Fast response times (200ms average)
-Modern React frontend for user interaction
+## Tech Stack 🛠️
+<div display="flex">
+  <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white" alt="Java"/>
+  <img src="https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white" alt="Spring"/>
+  <img src="https://img.shields.io/badge/Google%20Cloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white" alt="Google Cloud"/>
+  <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React"/>
+</div>
 
-🛠️ Tech Stack
-Backend
+## Features ✨
+- Real-time email processing with Spring Boot
+- AI-powered email analysis using Google Gemini
+- Asynchronous processing with Spring's @Async
+- Secure email handling with Java Mail Sender
+- Modern React frontend interface
 
-Java Spring Boot
-Google Gemini API
-Java Mail Sender
-Spring Security
-RESTful APIs
+## Prerequisites 📋
+<div display="flex">
+  <img src="https://img.shields.io/badge/java%2017-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white" alt="Java 17"/>
+  <img src="https://img.shields.io/badge/maven-C71A36?style=for-the-badge&logo=apache%20maven&logoColor=white" alt="Maven"/>
+  <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"/>
+</div>
 
-Frontend
+## Installation & Setup 🚀
 
-React.js
-Modern UI components
-
-Performance
-
-Asynchronous processing
-Connection pooling
-Caching mechanisms
-
-🚀 Getting Started
-Prerequisites
-
-Java 17 or higher
-Maven
-Node.js and npm
-Google Gemini API key
-
-Installation
-
-Clone the repository
-
-bashCopygit clone https://github.com/yourusername/email-assistant-spring-ai.git
+### Clone the Repository
+```bash
+git clone https://github.com/yourusername/email-assistant-spring-ai.git
 cd email-assistant-spring-ai
+```
 
-Configure environment variables
-
-propertiesCopyGOOGLE_API_KEY=your_gemini_api_key
+### Configure Environment Variables
+```properties
+GOOGLE_API_KEY=your_gemini_api_key
 MAIL_USERNAME=your_email
 MAIL_PASSWORD=your_app_password
+```
 
-Build and run the backend
-
-bashCopymvn clean install
+### Build & Run Backend
+```bash
+mvn clean install
 java -jar target/email-assistant.jar
+```
 
-Start the frontend
-
-bashCopycd frontend
+### Start Frontend
+```bash
+cd frontend
 npm install
 npm start
-💡 Usage
+```
 
-Access the application at http://localhost:3000
-Log in with your credentials
-Start managing your emails with AI assistance
-
-🔒 Security Features
-
-Secure email handling
-Authentication and authorization
-API security best practices
-Input validation
-
-⚡ Performance
-
-200ms average response time
-Efficient connection pooling
-Optimized for handling multiple requests
-
-🤝 Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-Fork the project
-Create your feature branch (git checkout -b feature/AmazingFeature)
-Commit your changes (git commit -m 'Add some AmazingFeature')
-Push to the branch (git push origin feature/AmazingFeature)
-Open a Pull Request
-
-📝 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-🙏 Acknowledgments
-
-Google Gemini API for AI capabilities
-Spring Boot framework
-React.js community
-EmbarkX | Learn Programming for the excellent tutorial
+## Usage 💡
+1. Access the application at `http://localhost:3000`
+2. Configure your email settings
+3. Start processing emails with AI assistance
 
 
-Made with ❤️ annsanity x
+## Acknowledgments 🙏
+<div display="flex">
+  <a href="https://www.youtube.com/@EmbarkX">
+    <img src="https://img.shields.io/badge/Tutorial-EmbarkX%20Programming-red?style=for-the-badge" alt="EmbarkX Tutorial"/>
+  </a>
+  <img src="https://img.shields.io/badge/Made%20with-❤️-red?style=for-the-badge" alt="Made with love"/>
+</div>
+
+---
+Created by annsanity x
