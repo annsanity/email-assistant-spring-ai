@@ -1,4 +1,5 @@
 Email Assistant with Spring Boot and Google Gemini AI 🚀
+
 A real-time email processing system built with Spring Boot and Google's Gemini API that helps manage and process emails intelligently.
 🌟 Features
 
